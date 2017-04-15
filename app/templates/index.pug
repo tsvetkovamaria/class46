@@ -3,10 +3,22 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900", rel="stylesheet")
     link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/style.css")
     title= title
   body
-    each book in books
-      .box 
-        h3= book.title
-        p= book.author
+    mixin products_block(products_array)
+      .products
+        each item in products_array
+          .product
+            a(href="#"): img(src=`uploads/${item.image}.jpg`, width="210", height="202", alt="Product image") 
+            h4.product__name= item.title
+            span.product__price= '$' + item.price
+            a(href="#").btn get it
+    .main
+      .sidebar
+      main.content
+        +products_block(products)
+        h2 Popular products now
+        +products_block(popular_products)

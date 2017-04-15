@@ -1,13 +1,67 @@
 {
 	"title": "Hello world",
-	"books": [
+	"products": [
 		{
-			"author": "J k Rowling",
-			"title": "HArry potter"
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "saikal",
+			"price": "8.99"
 		},
 		{
-			"author": "J R Martin",
-			"title": "Game of Thrones"
+			"title": "Serax Fibrepots",
+			"image": "Aktilek",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "ahmed",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "kanat",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "ramazan",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "medet",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "farid",
+			"price": "8.99"
+		}
+	],
+	"popular_products": [
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "elza",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "aisuluu",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "andrei",
+			"price": "8.99"
+		},
+		{
+			"title": "Kids Moon Colorblock Footed Tights",
+			"image": "Oleg",
+			"price": "8.99"
+		},
+		{
+			"title": "Serax Fibrepots",
+			"image": "Alexandra",
+			"price": "8.99"
 		}
 	]
 }

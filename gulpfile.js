@@ -23,6 +23,7 @@ gulp.task('views', function(){
 gulp.task('watch', function(){
 	gulp.watch('app/sass/**/*.sass', ['styles']);
 	gulp.watch('app/templates/**/*.pug', ['views']);
+	gulp.watch('app/templates/data/data.json', ['views']);
 });
 
 gulp.task('default', ['styles', 'views', 'watch']);
